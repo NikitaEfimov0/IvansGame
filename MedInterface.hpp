@@ -7,6 +7,7 @@
 class MedInterface{
 public:
     virtual void notify() = 0;
+    virtual void notify(bool t) = 0;
     //virtual void notify(int key) = 0;
 };
 #endif //OOPLAB1_MEDINTERFACE_HPP

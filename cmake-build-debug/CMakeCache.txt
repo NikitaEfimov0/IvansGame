@@ -230,6 +230,9 @@ OOPLAB1_SOURCE_DIR:STATIC=/Users/ddomingo/Downloads/OOPLAB2
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
+//The directory containing a CMake configuration file for nlohmann_json.
+nlohmann_json_DIR:PATH=/usr/local/lib/cmake/nlohmann_json
+
 
 ########################
 # INTERNAL cache entries
@@ -376,6 +379,8 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding nlohmann_json
+FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json:INTERNAL=[/usr/local/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake][v3.10.4(3.2.0)]
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
 

@@ -5,7 +5,7 @@
 		<Option title="OOPLAB1"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\nlohmann_json\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/ddomingo/Downloads/OOPLAB2/cmake-build-debug"/>
@@ -161,10 +161,19 @@
 		<Unit filename="/Users/ddomingo/Downloads/OOPLAB2/Creatures/Treant.h">
 			<Option target="OOPLAB1"/>
 		</Unit>
+		<Unit filename="/Users/ddomingo/Downloads/OOPLAB2/Game.h">
+			<Option target="OOPLAB1"/>
+		</Unit>
+		<Unit filename="/Users/ddomingo/Downloads/OOPLAB2/HeroSave.h">
+			<Option target="OOPLAB1"/>
+		</Unit>
 		<Unit filename="/Users/ddomingo/Downloads/OOPLAB2/Items/DamageSphere.h">
 			<Option target="OOPLAB1"/>
 		</Unit>
 		<Unit filename="/Users/ddomingo/Downloads/OOPLAB2/Items/Item.h">
+			<Option target="OOPLAB1"/>
+		</Unit>
+		<Unit filename="/Users/ddomingo/Downloads/OOPLAB2/KeyController.h">
 			<Option target="OOPLAB1"/>
 		</Unit>
 		<Unit filename="/Users/ddomingo/Downloads/OOPLAB2/Logger/ObsInterf.hpp">
@@ -176,11 +185,29 @@
 		<Unit filename="/Users/ddomingo/Downloads/OOPLAB2/Logger/ObserverFile.hpp">
 			<Option target="OOPLAB1"/>
 		</Unit>
+		<Unit filename="/Users/ddomingo/Downloads/OOPLAB2/Logger/SaveObject.h">
+			<Option target="OOPLAB1"/>
+		</Unit>
+		<Unit filename="/Users/ddomingo/Downloads/OOPLAB2/Rules/Rule.h">
+			<Option target="OOPLAB1"/>
+		</Unit>
+		<Unit filename="/Users/ddomingo/Downloads/OOPLAB2/Rules/RuleI.h">
+			<Option target="OOPLAB1"/>
+		</Unit>
 		<Unit filename="/Users/ddomingo/Downloads/OOPLAB2/main.cpp">
 			<Option target="OOPLAB1"/>
 		</Unit>
 		<Unit filename="/Users/ddomingo/Downloads/OOPLAB2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/ddomingo/Downloads/OOPLAB2/../../../../usr/local/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="/Users/ddomingo/Downloads/OOPLAB2/../../../../usr/local/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="/Users/ddomingo/Downloads/OOPLAB2/../../../../usr/local/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\nlohmann_json\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

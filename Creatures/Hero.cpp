@@ -7,6 +7,7 @@ Hero::Hero(){
     damage = 15;
     observers.push_back(new ObserverCons(this));
     observers.push_back(new ObserverFile(this));
+    observers.push_back(new SaveObject(this));
 }
 
 Hero::Hero(int i, int j){
@@ -17,4 +18,16 @@ Hero::Hero(int i, int j){
     damage = 15;
     observers.push_back(new ObserverCons(this));
     observers.push_back(new ObserverFile(this));
+    observers.push_back(new SaveObject(this));
+}
+
+void Hero::move() {
+    if(k.returnForward())
+        y-=1;
+    if(k.returnBackward())
+        y+=1;
+    if(k.returnLeft())
+        x-=1;
+    if(k.returnRight())
+        x+=1;
 }

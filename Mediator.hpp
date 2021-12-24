@@ -7,16 +7,27 @@
 #define OOPLAB1_MEDIATOR_HPP
 #include "View.hpp"
 #include "MedInterface.hpp"
+#include "Rules/RuleI.h"
+#include "Game.h"
 class Mediator:public MedInterface{
-    GameGrid* game;
+    GameGrid* gameField;
     View* view;
+    Game<RuleI<100>> game;
 public:
     Mediator(){
-        game = new GameGrid(20, 16);
-        view = new View(game->GetWidth(), game->GetHeight(), game->returnArray());
+        game.setMed(this);
+        gameField = new GameGrid(20, 16);
+        view = new View(gameField->GetWidth(), gameField->GetHeight(), gameField->returnArray());
     };
     void notify(){
-        view->Draw();
+        try {
+            view->Draw();
+        }catch (...){
+            std::cout<<"Some error, please restart the game";
+        }
+    }
+    void notify(bool t){
+        throw std::runtime_error("Hero died!");
     }
 };
 #endif //OOPLAB1_MEDIATOR_HPP

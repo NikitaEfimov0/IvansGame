@@ -12,6 +12,6 @@ protected:
     CellEntity* publisher;
 public:
     virtual void update() = 0;
-
+    virtual void update(int where){}
 };
 #endif //OOPLAB1_OBSINTERF_HPP

@@ -22,6 +22,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Compiler/Clang.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Compiler/GNU.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/FindPackageMessage.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Platform/Apple-AppleClang-C.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Platform/Apple-AppleClang-CXX.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Platform/Apple-Clang-C.cmake"
@@ -35,6 +37,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.19.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.19.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.19.2/CMakeSystem.cmake"
+  "/usr/local/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake"
+  "/usr/local/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake"
+  "/usr/local/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake"
   )
 
 # The corresponding makefile is:
